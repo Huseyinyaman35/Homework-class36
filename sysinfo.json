@@ -1,0 +1,70 @@
+{
+  "node": "v16.13.1",
+  "system": {
+    "manufacturer": "LENOVO",
+    "model": "82H8"
+  },
+  "cpu": {
+    "manufacturer": "11th",
+    "brand": "Gen Intel® Core™ i5-1135G7",
+    "speed": 2.4
+  },
+  "memory": "16 GB",
+  "osInfo": {
+    "platform": "Windows",
+    "distro": "Microsoft Windows 10 Home",
+    "release": "10.0.19042"
+  },
+  "vscodeInfo": {
+    "version": "1.64.2",
+    "extensions": [
+      "2gua.rainbow-brackets",
+      "aaron-bond.better-comments",
+      "abusaidm.html-snippets",
+      "alexcvzz.vscode-sqlite",
+      "bierner.github-markdown-preview",
+      "bierner.markdown-checkbox",
+      "bierner.markdown-emoji",
+      "bierner.markdown-preview-github-styles",
+      "bierner.markdown-yaml-preamble",
+      "christian-kohler.path-intellisense",
+      "codezombiech.gitignore",
+      "CoenraadS.bracket-pair-colorizer-2",
+      "DavidAnson.vscode-markdownlint",
+      "dbaeumer.vscode-eslint",
+      "dsznajder.es7-react-js-snippets",
+      "eamodio.gitlens",
+      "esbenp.prettier-vscode",
+      "GitHub.vscode-pull-request-github",
+      "hnw.vscode-auto-open-markdown-preview",
+      "jingkaizhao.vscode-redux-devtools",
+      "jonkwheeler.styled-components-snippets",
+      "KevinRose.vsc-python-indent",
+      "michelemelluso.code-beautifier",
+      "ms-dotnettools.vscode-dotnet-runtime",
+      "ms-python.python",
+      "ms-python.vscode-pylance",
+      "ms-toolsai.jupyter",
+      "ms-toolsai.jupyter-keymap",
+      "ms-toolsai.jupyter-renderers",
+      "ms-vscode-remote.remote-wsl",
+      "msjsdiag.vscode-react-native",
+      "PKief.material-icon-theme",
+      "ritwickdey.live-sass",
+      "ritwickdey.LiveServer",
+      "rvest.vs-code-prettier-eslint",
+      "sergey-tihon.openxml-explorer",
+      "streetsidesoftware.code-spell-checker",
+      "syler.sass-indented",
+      "TabNine.tabnine-vscode",
+      "tht13.html-preview-vscode",
+      "Tyriar.lorem-ipsum",
+      "WallabyJs.quokka-vscode",
+      "xabikos.JavaScriptSnippets",
+      "yuichinukiyama.vscode-preview-server",
+      "ZaferAYAN.lorem-picsum",
+      "ziyasal.vscode-open-in-github"
+    ],
+    "userSettings": {}
+  }
+}
