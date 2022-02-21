@@ -40,11 +40,13 @@ function selectRandomly(array) {
 }
 
 function tellFortune(numKids, partnerNames, locations, jobTitles) {
-  return `You will be a ${selectRandomly(jobTitles)} in ${selectRandomly(
-    locations
-  )}, married to ${selectRandomly(partnerNames)} with ${selectRandomly(
-    numKids
-  )} kids.`;
+
+  const jobTitle = selectRandomly(jobTitles);
+  const location = selectRandomly(locations);
+  const partnerName = selectRandomly(partnerNames);
+  const kids = selectRandomly(numKids);
+
+  return `You will be a ${jobTitle} in ${location}, married to ${partnerName} with ${kids} kids.`;
 }
 
 function main() {

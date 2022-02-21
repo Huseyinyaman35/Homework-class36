@@ -30,7 +30,6 @@ const cartForParty = {
 
 function calculateTotalPrice(partyObject) {
   const totalPrice = Object.values(partyObject).reduce((total, item) => {
-    // console.log(item);
     total += item;
     return total;
   }, 0);

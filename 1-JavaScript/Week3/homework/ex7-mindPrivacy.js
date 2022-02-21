@@ -29,8 +29,9 @@ const employeeRecords = [
   },
 ];
 
-const newArray = [];
+
 function filterPrivateData(employeeRecords) {
+  const newArray = [];
   employeeRecords.forEach((employeeRecord) => {
     const { name, occupation, email } = employeeRecord;
 
@@ -43,8 +44,6 @@ function filterPrivateData(employeeRecords) {
   });
   return newArray;
 }
-
-console.log(filterPrivateData(employeeRecords));
 
 // ! Test functions (plain vanilla JavaScript)
 function test1() {

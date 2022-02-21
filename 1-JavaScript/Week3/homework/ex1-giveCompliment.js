@@ -32,7 +32,7 @@ function giveCompliment(name) {
     "perfect", 
     "fascinating"]
 
-  let randomNumber = Math.floor(Math.random() * compliments.length);
+  const randomNumber = Math.floor(Math.random() * compliments.length);
   return `You are ${compliments[randomNumber]}, ${name}!`
 }
 
