@@ -34,15 +34,11 @@ const hourlyRate = 25;
 
 function computeEarnings(mondayTasks, hourlyRate) {
   // TODO complete this function
-  const priceArray = [];
-  let totalPrice;
-  mondayTasks.forEach((item) => {
-    const pricePerTask = (item.duration / 60) * hourlyRate;
-    priceArray.push(pricePerTask);
-    totalPrice = priceArray
-      .reduce((total, item) => (total += item), 0)
-      .toFixed(2);
-  });
+  // const priceArray = [];
+  const totalPrice = mondayTasks
+    .map((task) => (task.duration / 60) * hourlyRate)
+    .reduce((total, item) => (total += item), 0)
+    .toFixed(2);
   return `€${totalPrice}`;
 }
 

@@ -23,6 +23,8 @@ Full description at: https://github.com/HackYourFuture/Homework/tree/main/2-Brow
 -----------------------------------------------------------------------------*/
 function catWalk() {
   // TODO complete this function
+  const image = new Image();
+  image.style.left = '0px';
 }
 
 // TODO execute `catWalk` when the browser has completed loading the page

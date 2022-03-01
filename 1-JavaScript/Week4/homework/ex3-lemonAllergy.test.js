@@ -38,7 +38,7 @@ sanitizeFruitBasket(fruitBasket, 'lemon');
 describe('sanitizeFruitBasket', () => {
   test('should take two parameters', () => {
     // TODO replace next line with your code
-    expect(sanitizeFruitBasket.length === 2).toBe(true);
+    expect(sanitizeFruitBasket.length).toBe(2);
   });
 
   test('should not modify the original `fruitBasket` array', () => {
